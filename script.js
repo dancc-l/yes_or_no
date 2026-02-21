@@ -42,7 +42,7 @@ actual_height_si= 120
     })
 
     button_confirm.addEventListener("click", () => {
-        window.location.href="/despedida.html";
+        window.location.href="despedida.html";
     })
 
 
