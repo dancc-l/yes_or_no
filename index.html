@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludos humanito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1> HOLA...!!! </h1>
+        <img id="img-homero" src="/imagenes/homero.jpeg">
+        <p>Este sábado, ¿Te animarias a vivir una experiencia única en un lugar donde la paz y la alegría nunca faltan ?</p>
+         <div id="button-section">
+            <button class="button-confirm" id="button-index">SI</button>
+         </div>
+          
+
+    </section>
+
+    <script>
+        
+    //ir de index a invitation
+    let button_index = document.getElementById("button-index")
+
+    button_index.addEventListener("click", ()=> {
+        window.location.href = "/invitation.html"
+    }); 
+
+    </script>
+</body>
+</html>

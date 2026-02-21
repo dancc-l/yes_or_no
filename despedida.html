@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adios humanito</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <section>
+        <h1>GENIAL...!!!</h1>
+        <img src="./imagenes/06.png">  
+        <p>¡Gracias por aceptar! Nos vemos el sábado...</p>
+        <p>NO Faltes! </p>
+        
+        <button id="button-refresh"><i class="fa-solid fa-arrows-rotate"></i></button>
+    </section>
+     <script>
+        
+    //ir de index a invitation
+    let button_refresh = document.getElementById("button-refresh")
+
+    button_refresh.addEventListener("click", ()=> {
+        window.location.href = "/index.html"
+    }); 
+
+    </script>
+</body>
+</html>
